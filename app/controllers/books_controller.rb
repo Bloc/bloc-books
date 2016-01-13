@@ -1,5 +1,5 @@
 class BooksController < BlocWorks::Controller
   def welcome
-    "Welcome to BlocBooks!"
+    render :welcome, book: "Eloquent Ruby"
   end
 end
